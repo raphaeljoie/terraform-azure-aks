@@ -1,0 +1,7 @@
+additionalArguments:
+  - "--accesslog=true"
+  - "--accesslog.format=json"
+  - "--log.level=DEBUG"
+  - "--api.insecure"
+deployment:
+  replicas: 1
